@@ -84,7 +84,7 @@ namespace WpfApplication1
     /// <summary>カレンダーに年が西暦の文字列で入ってくるので、それを和暦文字に変換するコンバーター</summary>
     class YearConverter : IValueConverter
     {
-        static string[] MonthString = { "睦月", "如月", "弥生", "卯月", "皐月", "水無月", "文月", "葉月", "長月", "神無月", "霜月", "師走" };
+        static string[] MonthString = { "睦月", "如月", "弥生", "卯月", "皐月", "水無月", "文月", "葉月", "長月", "神無月", "霜月", "師走" ,"Test"};
 
         public object Convert(object value, Type targetType, object parameter, CultureInfo culture)
         {
