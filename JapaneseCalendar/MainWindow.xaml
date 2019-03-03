@@ -12,7 +12,7 @@
         </DataTemplate>
         <DataTemplate x:Key="calendarButtonTemplate">
             <TextBlock Text="{Binding Converter={StaticResource yearConv},ConverterParameter=K}"/>
-            <!-- パラメーターKで陰暦の月表記にしてみる *@@@@@@@@@@@@@-->
+            <!-- パラメーターKで陰暦の月表記にしてみる =============-->
         </DataTemplate>
 
         <Style TargetType="{x:Type CalendarButton}" x:Key="calendarButtonStyle">
